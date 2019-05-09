@@ -1,0 +1,123 @@
+﻿
+* {
+    font-family: 'Microsoft YaHei';
+}
+
+#herbody {
+    width: 1300px;
+    height: 590px;
+    background-color: #f8f8f8;
+    margin: 0px auto;
+}
+
+
+#shebody {
+    width: 1000px;
+    height: 590px;
+    overflow: hidden;
+    margin: 0px auto;
+}
+
+#top_body {
+    width: 1000px;
+    overflow: hidden;
+    height: 40px;
+    line-height: 40px;
+}
+
+#top_body {
+    margin-top: 20px;
+}
+
+    #top_body h2 {
+        float: left;
+    }
+
+    #top_body #fanhui {
+        float: right;
+        margin-top: 10px;
+        line-height: 40px;
+    }
+
+#had_lr {
+    width: 800px;
+    height: 450px;
+    border: 1px solid #d9d9d9;
+    background-color: #ffffff;
+    overflow: hidden;
+    float: left;
+}
+
+#had_lb {
+    width: 180px;
+    height: 450px;
+    border: 1px solid #d9d9d9;
+    background-color: #f0f0f0;
+    float: left;
+}
+
+    #had_lb li {
+        width: 100%;
+        height: 48px;
+        border: 1px solid #d6d6d6;
+        line-height: 48px;
+        text-align: center;
+        font-family: 'Microsoft YaHei UI';
+        font-size: 18px;
+        list-style-type: none;
+    }
+
+        #had_lb li:hover {
+            border-left: 5px solid #ee5f5b;
+        }
+
+    #had_lb a {
+        text-decoration: none;
+        color: #545557;
+        line-height: 50px;
+        width: auto;
+    }
+
+        #had_lb a:hover {
+            color: #ee5f5b;
+        }
+
+#box {
+    float: left;
+    width: 800px;
+    height: 300px;
+}
+
+    #box #usersman, #userspwd, #userstop, #usersase, #usersgos {
+        height: 560px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+        #usersman p, #userspwd p, #userstop p, #usersase p, #usersgos p {
+            margin-bottom: 15px;
+        }
+
+.daers {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#box .txt {
+    border: 1px solid #a5afc3;
+}
+
+#box select.txt {
+    width: 80px;
+}
+
+#box label {
+    width: 80px;
+    font-size: 16px;
+    display: block;
+    float: left;
+    text-align: right;
+    color: #666;
+    height: 25px;
+    line-height: 25px;
+}

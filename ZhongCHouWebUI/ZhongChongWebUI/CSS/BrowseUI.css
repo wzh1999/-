@@ -1,0 +1,204 @@
+﻿* {
+    padding: 0px;
+    list-style: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+/*导航部分*/
+#boss {
+  width: 1300px;
+    height: 1960px;
+    margin: 0px auto;
+    /*margin-top :-20px;*/
+    background-color: #F8F8F8;   
+    /*border :1px solid red;*/
+    position :relative;
+     overflow:hidden;
+}
+
+#nrong {
+      /*border :1px solid #000;*/
+    width: 1040px;
+    height: 1900px;
+    /*height:1900px;*/
+    margin-left:160px;
+    /*border: 1px solid red;*/
+    font-family: 微软雅黑;
+    position :relative;
+   overflow:hidden;
+}
+
+#topper {
+    width: 1020px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid white;
+    border-bottom: 2px solid red;
+    margin-top: 20px;
+    border: none;
+    font-family: 微软雅黑;
+    font-size: 18px;
+    color: black;
+}
+
+    #topper ul {
+        overflow: hidden;
+    }
+
+        #topper ul li {
+            float: left;
+            padding: 10px;
+        }
+
+.typecss {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background-color: white;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    color: black;
+    height: 28px;
+ width:40px;
+ border-radius: 5px 5px;
+}
+
+    .typecss:link {
+        color: #000;
+    }
+
+    .typecss:visited {
+        color: red;
+    }
+
+    .typecss:hover {
+        background-color: #dedede;
+    }
+
+#kongge {
+    width: 200px;
+    text-align: right;
+}
+/*浏览内容样式*/
+#liulan {
+overflow:hidden ;
+}
+#jindu {
+    height:50px;
+}
+.yangshi {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #dedede;
+    margin-left: -15px;
+    position: relative;
+    left: 21px;
+    border-radius: 3px;
+    margin-top: 15px;
+    top: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.yangshi:hover {
+background-color :red;
+}
+   
+.drop_sort {
+     margin-left: 945px;
+    position: relative;
+    top: -35px;
+    right: 35px;
+    font-family: 微软雅黑;
+}
+#xianshi {
+  overflow: hidden;
+}
+#list {
+  border: 1px solid #dedede;
+        border-radius: 5px;
+        width: 223px;
+        height: 310px;
+        float: left;
+        margin: 22px;
+        margin-top: 20px;
+        margin-left: 12px;
+        font-size: 12px;
+      
+}
+#aixin {
+  position: absolute;
+    margin-top: 8px;
+    margin-left: 162px;
+    width: 100px;
+    /*border :1px solid red;*/
+}
+#shuzi {
+  position: absolute;
+    margin-top: 12px;
+    margin-left: 188px;
+    font-size: 13px;
+    color: #ee5f59;
+      /*border :1px solid red;*/
+}
+
+#detail1 {
+      height: 40px;
+    /*border: 1px solid #dedede;*/
+    padding-left: 15px;
+    padding-top: 10px;
+    line-height: 20px;
+    color: #565455;
+    /*border:1px solid red;*/
+
+}
+#detail2 {
+    height: 20px;
+    /*border: 1px solid red;*/
+    padding-left: 15px;
+    line-height: 20px;
+}
+#detail3 {
+      margin-top: 8px;
+    height: 3px;
+    background-color:red;
+    margin-bottom: 8px;
+    border :1px solid red;
+}
+#detail4 {
+        height: 20px;
+    /*border: 1px solid black;*/
+    padding-left: 15px;
+    line-height: 20px;
+}
+#detail4  span{
+     margin-right: 25px;
+}
+#detail5 {
+      height: 25px;
+    /*border: 1px solid red;*/
+    padding-left: 15px;
+    line-height: 20px;
+}
+#detail5 span{
+      margin-right: 32px;
+}
+#state {
+ background-color: red;
+    margin-left: 30px;
+    color: #fff;
+}
+/*分页功能*/
+#fenye {
+width:1000px;
+height:30px;
+/*border:1px solid red;*/
+ margin-left:160px;
+text-align:center ;
+font-size :14px;
+}

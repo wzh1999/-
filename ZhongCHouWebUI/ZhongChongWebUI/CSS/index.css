@@ -1,0 +1,336 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#boss {
+    width: 1300px;
+    margin: 0px auto;
+}
+
+#fh > a > img {
+    width: 70px;
+    height: 70px;
+    opacity: 0.7;
+    position: fixed;
+    right: 100px;
+    top: 300px;
+}
+
+
+#top-dao {
+    width: 1300px;
+    height: 30px;
+    background-color: #fff;
+    border-bottom: 1px solid #E7E7E7;
+    margin: 0px auto;
+}
+
+#diaohang {
+    width: 1116px;
+    height: 50px;
+    margin: 0px auto;
+}
+
+    #diaohang ul {
+        margin-left: 216px;
+    }
+
+        #diaohang ul li {
+            float: left;
+            margin-left: 19px;
+        }
+
+            #diaohang ul li a {
+                color: #aaa5a5;
+                font-family: 微软雅黑;
+                font-size: 15px;
+            }
+
+            #diaohang ul li:hover a {
+                color: red;
+            }
+
+#lubo {
+    width: 1300px;
+    height: 500px;
+    margin: 0px auto;
+    background-color: #F8F8F8;
+    padding-top: 50px;
+    border-bottom: 2px solid #FDFDFD;
+    position: relative;
+}
+
+    #lubo .lubo {
+        width: 970px;
+        height: 400px;
+        margin: 0px auto;
+        position: absolute;
+        left: 140px;
+        overflow:hidden;
+        border-radius: 20px;
+        /*border:1px solid red;
+         border-radius:20px;*/
+        /*background-image:url("images\shouye\1.png");*/
+        /*background-position:center;*/
+    }
+
+    #lubo > .lubo {
+        /*float:left;*/
+        /*overflow: hidden;*/
+    }
+
+    /*#lubo .lubo ul {
+            width: 970px;
+            height: 400px;
+            margin: 0px auto;
+        }*/
+
+    #lubo .lubo ul {
+        width: 2910px;
+        height: 400px;
+        margin:0px auto;
+        /*border:1px solid red;*/
+    }
+
+    #lubo .lubo  ul  li {
+        width: 970px;
+        height: 400px;
+        float: left;
+        /*border:1px solid red;*/
+    }
+
+    #lubo .lubo ul li img {
+        float:left;
+        border: 1px solid #F8F8F8;
+        border-radius: 20px;
+        background-size: cover;
+        background-position: center;
+        /*background-size:cover;*/
+        /*overflow:hidden;*/
+    }
+
+#zuo {
+    width: 50px;
+    height: 65px;
+    float: left;
+    padding-top: 200px;
+    padding-left: 60px;
+}
+
+#you {
+    width: 50px;
+    height: 65px;
+    position: absolute;
+    left: 1150px;
+    top: 250px;
+}
+
+#center {
+    width: 1300px;
+    height: 450px;
+    margin: 0px auto;
+    background-color: #F3F3F3;
+}
+
+#zhong {
+    width: 990px;
+    height: 80px;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+
+
+    #zhong h2 {
+        float: left;
+        margin-right: 300px;
+    }
+
+    #zhong ul {
+        width: 990px;
+        height: 30px;
+        padding-top: 20px;
+    }
+
+        #zhong ul li {
+            float: left;
+            margin-left: 5px;
+        }
+
+            #zhong ul li a {
+                font-family: 微软雅黑;
+                color: #aaa5a5;
+                font-size: 15px;
+            }
+            #zhong ul li:hover .abc {
+            color:red;
+            }
+
+#zhong_xm /*众筹制造边框*/ {
+    width: 970px;
+    height: 340px;
+    margin: 0px auto;
+    overflow: hidden;
+    position: relative;
+    /*border:1px solid red*/
+}
+/*爱心*/
+#aixin {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 162px;
+    width: 100px;
+    /*border :1px solid red;*/
+}
+/*数字*/
+#shuzi {
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 188px;
+    font-size: 13px;
+    color: #ee5f59;
+    /*border :1px solid red;*/
+}
+
+#zhong_xm dl /*众筹制造单展示*/ {
+    width: 230px;
+    height: 340px;
+    border-radius: 5px;
+    /*border:1px solid red;*/
+    margin-left: 10px;
+    background-color: #fff;
+}
+
+#zhong_xm img {
+    width: 230px;
+    height: 180px;
+}
+
+#zhong_xm dd h5 {
+    padding: 10px;
+    height: 40px;
+}
+
+.jd /*进度条低色*/ {
+    width: 230px;
+    height: 3px;
+    background-color: #F2F2F2;
+}
+
+#jd /*进度条已走多少色*/ {
+    height: 3px;
+    background-color: red;
+}
+
+#zt {
+    width: 25px;
+    height: 10px;
+    color: #fff;
+    background-color: red;
+    text-align: center;
+    margin-left: 30px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.nr /*众筹制造目标天数那一行样式*/ {
+    padding: 5px;
+    height: 10px;
+    font-family: 微软雅黑;
+    color: #a4a4a4;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+#yd, #ycz, #sy p /*众筹制造最后一排内容样式*/ {
+    text-align: center;
+    width: 58px;
+}
+
+#yd, #ycz, #sy {
+    height: 20px;
+    float: left;
+    padding: 8px;
+    font-family: 微软雅黑;
+    color: #A4A4A4;
+}
+
+
+#center_two {
+    width: 1300px;
+    /*height: 2200px;*/
+    margin: 0px auto;
+    background-color: #F8F8F8;
+    margin-top: 0px auto;
+    border-top: 2px solid #fff;
+}
+
+    #center_two h2 {
+        margin-bottom: 20px;
+    }
+
+#rmxm {
+    width: 970px;
+    /*height: 1800px;*/
+    margin: 0px auto;
+    padding-top: 20px;
+    /*border:1px solid red;*/
+}
+/*热门项目边框*/
+#zhong-rmxm {
+    width: 970px;
+    /*height: 1750px;*/
+    margin: 0px auto;
+    /*border:1px solid red;*/
+    overflow: hidden;
+}
+
+    #zhong-rmxm dl /*热门项目单展示*/ {
+        width: 230px;
+        height: 340px;
+        border-radius: 5px;
+        /*border:1px solid red;*/
+        margin-left: 10px;
+        margin-bottom: 10px;
+        background-color: #fff;
+    }
+
+    #zhong-rmxm img {
+        width: 230px;
+        height: 180px;
+    }
+
+    #zhong-rmxm dd h5 {
+        padding: 10px;
+        height: 40px;
+    }
+
+#button1 {
+    width: 970px;
+    height: 60px;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 50px;
+    /*border:1px solid red;*/
+}
+
+
+
+#wo-left {
+    padding-top: 50px;
+    width: 970px;
+    height: 300px;
+    margin: 0px auto;
+}
+
+.wo-left1 {
+    width: 700px;
+    border-right: 1px dashed #a4a4a4;
+    float: left;
+    margin-right: 50px;
+}

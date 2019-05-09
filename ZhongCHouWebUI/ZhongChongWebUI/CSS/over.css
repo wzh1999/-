@@ -1,0 +1,37 @@
+﻿#center{
+    margin: 0px auto;
+    width: 1300px;
+    height: 750px;
+    background: #f8f8f8;
+    overflow: hidden;
+}
+
+    #center #pic {
+        margin-left: 150px;
+        margin-top: 30px;
+    }
+
+    #center #mid {
+        border: 1px solid #ccc;
+        width: 950px;
+        height: 500px;
+        background-color: #fff;
+        margin-left: 160px;
+        margin-top: 10px;
+        padding-top: 50px;
+        overflow: hidden;
+    }
+
+#left, #right {
+    margin-top: 100px;
+    float: left;
+    margin-left: 150px;
+}
+
+#middle{
+    margin-left: 40px;
+}
+
+#button{
+    margin-top: 40px;
+}

@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Register.master.cs" Inherits="ZhongChouWebUI.Register" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+     <style type="text/css">
+        * {
+            margin: 0px;
+            padding: 0px;
+            text-decoration: none;
+        }
+        /*头部样式*/
+        #top {
+            width: 1300px;
+            height: 70px;
+            margin: 0px auto;
+            border-bottom: 1px solid #ccc;
+        }
+
+        #tophead {
+            width: 1000px;
+            height: 70px;
+            line-height: 70px;
+            margin: 0px auto;
+            /*border:1px solid red;*/
+        }
+
+            #tophead span {
+                line-height: 50px;
+                /*color: #EE5F59;*/
+            }
+
+        #zh {
+            margin-left: 600px;
+            /*border:1px solid red;*/
+        }
+      
+            #zh .color {
+               color: #EE5F59;
+            }   
+            #zh .color:hover {
+                font-size :18px;
+         color:red;
+         }
+           
+            /*尾部样式*/
+        #foot {
+          width: 1300px;
+            height: 70px;
+             margin:0px auto ;
+        }
+        p.foot {
+       text-align:center;
+       color:#808080;
+        }
+        
+    </style>
+</head>
+<body>
+      <form id="form1" runat="server">
+     <%--   头部--%>
+        <div id="top">
+            <div id="tophead">
+                <img src="images/3_02.png" class="head_logo" /><span id="zh">已有账号&nbsp;<a href="Login.aspx"  class="color">直接登录</a></span>
+            </div>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <%--尾部--%> 
+             <div id="foot">
+                <p class="foot">&copy;2019北京东方联合投资管理有限公司 zhongchou.cn 版权所有 京ICP备14016844号</p>
+            </div>
+    </form>
+</body>
+</html>

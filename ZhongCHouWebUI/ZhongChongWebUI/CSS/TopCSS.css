@@ -1,0 +1,221 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    z-index: 1;
+}
+
+body {
+    font-size: 13px;
+}
+
+#head_ {
+    width: 1300px;
+    margin: 0px auto;
+    overflow: hidden;
+    height: 70px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+/*导航*/
+#lav, #ss, #login {
+    float: left;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+#head_ ul {
+    overflow: hidden;
+    list-style: none;
+}
+
+
+
+#lav ul {
+    font-size: 17px;
+    margin-left: 140px;
+}
+
+    #lav ul li {
+        float: left;
+        padding: 10px 10px;
+        line-height: 55px;
+    }
+
+        #lav ul li a:hover {
+            padding: 20px;
+            border-bottom: 2px solid #EE5F59;
+            color: #EE5F59;
+        }
+
+#login_nav {
+    background-color:white;
+    display: none;
+    position: absolute;
+    list-style: none;
+    border:1px solid #f8f8f8;
+    margin-right: 150px;
+    width: 100px;
+    height:auto;
+    z-index: 3;
+}
+
+    #login_nav li a {
+        display: block;
+        width: 100px;
+        height:45px;
+        padding-bottom:2px 0px;
+        border-bottom:1px solid #f8f8f8;
+        line-height:45px;
+        margin-left:0px;
+        text-align:center;
+    }
+        #login_nav li a:hover {
+        background:#f8f8f8;}
+
+/*搜索框*/
+#ss {
+    height: 36px;
+    width: 225px;
+    overflow: hidden;
+    margin-top: 22px;
+    margin-left: 50px;
+}
+
+    #ss img {
+        padding: 9px 8px;
+        float: right;
+    }
+
+.txt_ss {
+    height: 25px;
+    width: 150px;
+}
+
+.btn_Ss {
+    width: 40px;
+    height: 29px;
+}
+/*登录文字*/
+#login_info {
+    margin-top: 15px;
+    height: 50px;
+    overflow: hidden;
+}
+
+#login a {
+    text-decoration: none;
+    margin-left: 10px;
+    height: 50px;
+    line-height: 50px;
+}
+
+#login_info .cl_name {
+    margin-left: 10px;
+    height: 50px;
+    line-height: 50px;
+}
+
+#login_wz, #login_info .cl_name {
+    float:right;
+}
+
+#login {
+    margin-left: 140px;
+    font-size: 15px;
+    overflow: hidden;
+}
+
+    #login ul li {
+        float: left;
+        line-height: 75px;
+    }
+
+        #login ul li.shu {
+            color: #ccc;
+        }
+
+        #login ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+hr {
+    color: #808080;
+    width: 1300px;
+}
+/*尾部*/
+#foot p {
+    margin: 13px 0px;
+}
+/*上面部分*/
+#foot a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#foot #one ul {
+    overflow: hidden;
+    margin-left: 50px;
+}
+
+    #foot #one ul li {
+        list-style: none;
+        float: left;
+        padding-left: 50px;
+        /*border:1px solid red;*/
+    }
+
+#foot {
+    width: 1300px;
+    margin: 0px auto;
+}
+
+    #foot #one {
+        color: #ffffff;
+        background-color: #5a5a5a;
+        margin: 0px auto;
+        border: 1px solid #505050;
+    }
+
+#one ul li p.title {
+    color: #efa34f;
+    font-size: 15px;
+}
+
+#two {
+    background-color: #505050;
+    color: #ffffff;
+    border: 1px solid #5a5a5a;
+}
+
+p {
+    font-size: 14px;
+}
+
+#two p {
+    margin-left: 100px;
+}
+
+    #two p.er {
+        margin-left: 160px;
+    }
+
+    #two p.san {
+        color: #ccc;
+        font-size: 12px;
+    }
+
+.image_head {
+    height: 50px;
+    width: 50px;
+}
+
+#ma {
+    margin-left: 1265px;
+    margin-top: -100px;
+}
+
